@@ -26,7 +26,7 @@ const Navbar = () => {
         >
 
           <img src={foto} alt="foto" className='w-9 h-9 object-contain rounded-3xl hover:scale-[200%] transition-all mr-2' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Nirvana &nbsp; <span className='sm:block hidden'>| FullStack Developer</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Nirvana &nbsp; <span className='sm:block hidden'>| QA Engineer</span></p>
 
         </Link>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={toggle ? close : menu}
-           alt="menu" 
+          alt="menu" 
           
 
           className='w-28px h-[28px]

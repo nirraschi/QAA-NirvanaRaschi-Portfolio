@@ -49,8 +49,10 @@ const About = () => {
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      ¡Hola! Bienvenido a mi portafolio donde comparto mi experiencia y proyectos de desarrollo. Me gusta trabajar con Javascript, React y diferentes tecnologías y herramientas para crear aplicaciones únicas y atractivas.
-Si tienes alguna pregunta o proyecto en mente, no dudes en ponerte en contacto conmigo. <br/> ¡Espero que disfrutes mi portafolio tanto como yo disfruté creándolo!
+      ¡Hola! Bienvenido a mi portafolio.
+      Acá vas a encontrar una mezcla de lo que más me gusta hacer: asegurar la calidad de software y, de vez en cuando, ponerme en modo dev para crear cosas con JavaScript, React y otras tecnologías que me divierten.
+      Me encanta aprender, buscar soluciones creativas y trabajar con buena onda para que todo salga excelente.
+      Si querés charlar, compartir ideas o pensar un proyecto juntos, escribime. <br/> ¡Espero que disfrutes mi portafolio tanto como yo disfruté creándolo!
     </motion.p>
 
     <div className="mt-20 flex flex-wrap gap-10">

@@ -1,4 +1,4 @@
-import foto from "./foto.png";
+import foto from "./foto.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import playwright from "./tech/playwright.png";
+import cypress from "./tech/cypress.jpg"
+import postman from "./tech/postman.svg"
+import jira from "./tech/jira.png"
+import sql from "./tech/sql.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -67,6 +72,11 @@ export {
   code,
   code2,
   censys,
-  productos
+  productos,
+  playwright,
+  cypress,
+  postman,
+  jira,
+  sql
 
 };
