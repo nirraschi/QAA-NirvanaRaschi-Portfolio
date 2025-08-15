@@ -32,7 +32,10 @@ import {
   threejs,
   shopify,
   productos,
-  jira
+  jira,
+  e2e,
+  ui,
+  portfolio
 
 } from "../assets";
 
@@ -189,69 +192,59 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Bootcamp Desarrollo FullStack (2022)",
+      "Quiero sumarme a un equipo buena onda, colaborativo y con ganas de crear cosas de calidad. Me encanta trabajar en entornos ágiles, donde haya comunicación abierta, se compartan ideas y siempre haya algo nuevo por aprender. Tengo experiencia en QA Manual, Automatización y desarrollo web, lo que me ayuda a ver el producto de forma integral y detectar mejoras desde el principio. Soy proactiva, detallista, curiosa y me adapto rápido a nuevas herramientas y metodologías. Mi objetivo es crecer junto al equipo, aportar soluciones, buena energía y resultados que realmente hagan la diferencia. Si te gusta mi perfil y pensás que puedo aportar a tu equipo, me encantaría charlar. Podés contactarme en la sección de abajo!",
     company: "Henry",
 
   },
-  {
-    testimonial:
-      "Curso TypeScript + Testing (2024)",
-    company: "Fundación Integrar",
-  },
-  {
-    testimonial:
-      "Soy autodidacta, aprendiendo principalmente a través de recursos en línea, tutoriales y documentación. Me especialicé en el stack MERN.",
-    company: "Formación Autodidacta",
-  },
+
 ];
 
 const projects = [
   {
-    name: "Green Kitchen: Soy Henry",
+    name: "Automatización E2E - Playwright",
     description:
-      "Es una aplicación de comidas donde se renderizan tarjetas con recetas de comida tomadas de una API pública, y se puede ordenar y filtrar según tipos de dietas y otros detalles.",
+    "Proyecto de Automatización E2E con Playwright y BDD Objetivo del repositorio es probar aplicaciones web con dos enfoques distintos: TDD Playwright puro (playwright-test/) -> Tests rápidos, técnicos y orientados a CI/CD. Uso de @playwright/test. Casos como login, carrito de compras, etc. Y BDD con Cucumber (bdd/) -> Casos de prueba legibles para el equipo funcional. Escenarios escritos en Gherkin.",
+
+
     tags: [
       {
-        name: "react",
+        name: "playwright",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Cucumber",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "GitHubActions",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/nirraschi/ProyectoIndividual-Foods",
+    image: e2e,
+    source_code_link: "https://github.com/nirraschi/automation-e2e-example",
   },
   {
-    name: "EcoSun: Henry Proyecto Final",
+    name: "UI Automatization - Playwright",
     description:
-      "Aplicación web eCommerce desarrollada en un equipo de 8 integrantes utilizando Javascript, React, Node.js, Redux, Express, Bootstrap y CSS Puro entre otras tecnologías. Todas las funcionalidades.",
+      "Este repositorio contiene pruebas automatizadas con Playwright sobre la página https://letcode.in/, cubriendo múltiples interacciones con el DOM y escenarios de automatización. Se practican los siguientes conceptos: Estructura y organización: Page Object Model. Elementos básicos: Inputs, botones, select/dropdown, radio buttons, checkboxes y formularios completos. Alertas y diálogos. Navegación: Manejo de múltiples ventanas/pestañas, frames e iframes. Validación de elementos. Acciones avanzadas: Drag & drop, sort, multiselect y sliders. Sincronización: Esperas explícitas, implícitas y control de timeouts. Datos y visualización: Tablas simples/avanzadas, calendario, Shadow DOM. Subida y manejo de ficheros. Cada escenario sirve como laboratorio práctico para aprender y aplicar Playwright en casos reales.",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "NodeJS",
+        name: "Playwright",
         color: "green-text-gradient",
       },
-      {
-        name: "Bootstrap",
-        color: "pink-text-gradient",
-      },
+
     ],
-    image: jobit,
-    source_code_link: "https://github.com/aliaz9/frontend-pf/",
+    image: ui,
+    source_code_link: "https://github.com/nirraschi/playwright-ui-automation-portfolio",
   },
   {
-    name: "Mi Portafolio",
+    name: "Portafolio Interactivo – Desarrollo Web",
     description:
-      "Este portafolio fue desarrollado con react, tailwindcss para los estilos y con librerías como three.js para las animaciones 3d.",
+      "Diseñé y desarrollé este portafolio utilizando **JavaScript, React, Three.js y Tailwind CSS**, buscando una experiencia visual atractiva y fluida. Incluye animaciones 3D, diseño responsive y componentes reutilizables, optimizando el rendimiento y la accesibilidad. Este proyecto me permitió combinar creatividad con buenas prácticas de desarrollo, y es el resultado de muchas horas de pruebas, mejoras y detalles… hechos por mí de principio a fin.",
     tags: [
       {
         name: "React",
@@ -261,13 +254,14 @@ const projects = [
         name: "threeJS",
         color: "green-text-gradient",
       },
-      {
-        name: "TailwindCSS",
+            {
+        name: "Javascript",
         color: "pink-text-gradient",
       },
+
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/nirraschi/Portfolio-Nirvana",
+    image: portfolio,
+    source_code_link: "https://github.com/nirraschi/QAA-NirvanaRaschi-Portfolio",
   },
 ];
 

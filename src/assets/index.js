@@ -39,6 +39,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import e2e from "./e2e.png";
+import ui from "./ui.png"
+import portfolio from "./portfolio.png"
 
 export {
   foto,
@@ -77,6 +80,9 @@ export {
   cypress,
   postman,
   jira,
-  sql
+  sql,
+  e2e,
+  ui,
+  portfolio
 
 };

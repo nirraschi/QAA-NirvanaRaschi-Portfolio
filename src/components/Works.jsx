@@ -20,10 +20,10 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link } 
       }}
       className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[200px]">
           <img src={image} alt={name} className='w-full f-full object-cover rounded-2xl' />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-2 card-img_hover">
             <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             onClick={() => window.open (source_code_link, "_blank")}
             >
@@ -36,9 +36,9 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link } 
           </div>
         </div>
 
-        <div className="mt-5">
+        <div className="mt-1">
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p>{description}</p>
+          <p className='text-[14px]'>{description}</p>
 
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
@@ -73,7 +73,7 @@ const Works = () => {
       variants={fadeIn("","",0.1, 1)}
       className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        A continuación algunos de mis proyectos! Puedes ver las tecnologías empleadas y el código con el enlace directo al repositorio. Estoy trabajando en más proyectos que puedes ver en mi perfil de GitHub. Si tienes alguna pregunta o proyecto en mente, no dudes en ponerte en contacto conmigo.
+        En esta sección encontrarás una colección de proyectos y prácticas de QA Automation que desarrollé para perfeccionar mis habilidades. Incluyen desde ejercicios para interactuar con distintos elementos del DOM, hasta pruebas aplicando diversas metodologías y frameworks. Cada repositorio cuenta con ejemplos reales y buenas prácticas, listos para explorar en GitHub.
       </motion.p>
 
     </div>
