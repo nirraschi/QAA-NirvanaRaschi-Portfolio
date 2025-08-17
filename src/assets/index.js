@@ -42,6 +42,7 @@ import tripguide from "./tripguide.png";
 import e2e from "./e2e.png";
 import ui from "./ui.png"
 import portfolio from "./portfolio.png"
+import whatsapp from "./WhatsApp.png"
 
 export {
   foto,
@@ -83,6 +84,7 @@ export {
   sql,
   e2e,
   ui,
-  portfolio
+  portfolio,
+  whatsapp
 
 };
